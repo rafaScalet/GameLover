@@ -1,67 +1,98 @@
-body{
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+body {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
-h1{
-    color: #FECD23;
+h1 {
+  color: #fecd23;
 }
 
-input{
-    border: none;
-    margin: 10px;
-    padding: 10px;
-    width: 60%;
-    border-radius: 4px;
+input {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 60%;
+  border-radius: 4px;
 }
 
-.header{
-    padding: 20px;
-    font-size: 14px;
+button {
+  color: #fff;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #1d0c20;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
+.header {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  border-radius: 10px;
+  width: 700px;
+  padding: 10px;
+  background: linear-gradient(rgba(29, 12, 32, 1) 0%, rgba(101, 31, 113, 1) 100%);
+}
+
+.content {
+  margin: 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(101, 31, 113, 1) 0%, rgba(29, 12, 32, 1) 110%);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  border: 5px solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: rgba(52, 41, 136, 1);
+  border-color: linear-gradient(rgba(52, 41, 136, 1) 0%, rgba(38, 55, 219, 1) 100%);
+  margin: 10px;
+  background: linear-gradient(0deg, rgba(114, 205, 254, 1) 0%, rgba(63, 96, 239, 1) 100%);
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+
+  input {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 80%;
+  }
+
+  button {
+    width: auto;
+    width: 6rem;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3 {
+    width: 30%;
+  }
+
+  .flex-container {
     align-items: center;
-    font-size: 18px;
-}
-
-.container{
-    margin: auto;
-    border-radius: 10px;
-    width: 700px;
-    padding: 10px;
-    background: linear-gradient(rgba(29,12,32,1) 0%, rgba(101,31,113,1) 100%);
-}
-
-.content{
-    margin: 20px;
-    border-radius: 10px;
-    background: linear-gradient(rgba(101,31,113,1) 0%, rgba(29,12,32,1) 110%);
-}
-
-.flex-container{
-    display: flex;
-    flex-direction: row;
-}
-
-.card-1, .card-2, .card-3{
-    border: 5px solid;
-    border-width: 10px;
-    border-radius: 10px;
-    border-color: rgba(52, 41, 136, 1);
-    border-color: linear-gradient(rgba(52, 41, 136, 1) 0%, rgba(38, 55, 219, 1) 100%);
-    margin: 10px;
-    background: linear-gradient(0deg, rgba(114, 205, 254, 1) 0%, rgba(63, 96, 239, 1) 100%);
-}
-
-button{
-    color: #fff;
-    width: 100px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: #1d0c20;
+    flex-direction: column;
+    width: auto;
+  }
 }
