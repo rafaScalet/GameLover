@@ -1,4 +1,5 @@
 body{
+    color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -7,8 +8,15 @@ h1{
     color: #FECD23;
 }
 
+input{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    border-radius: 4px;
+}
+
 .header{
-    color: #fff;
     padding: 20px;
     font-size: 14px;
 }
@@ -16,6 +24,8 @@ h1{
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: 18px;
 }
 
 .container{
@@ -28,6 +38,7 @@ h1{
 
 .content{
     margin: 20px;
+    border-radius: 10px;
     background: linear-gradient(rgba(101,31,113,1) 0%, rgba(29,12,32,1) 110%);
 }
 
