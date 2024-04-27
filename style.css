@@ -31,7 +31,7 @@ input{
 .container{
     margin: auto;
     border-radius: 10px;
-    width: 600px;
+    width: 700px;
     padding: 10px;
     background: linear-gradient(rgba(29,12,32,1) 0%, rgba(101,31,113,1) 100%);
 }
@@ -45,4 +45,23 @@ input{
 .flex-container{
     display: flex;
     flex-direction: row;
+}
+
+.card-1, .card-2, .card-3{
+    border: 5px solid;
+    border-width: 10px;
+    border-radius: 10px;
+    border-color: rgba(52, 41, 136, 1);
+    border-color: linear-gradient(rgba(52, 41, 136, 1) 0%, rgba(38, 55, 219, 1) 100%);
+    margin: 10px;
+    background: linear-gradient(0deg, rgba(114, 205, 254, 1) 0%, rgba(63, 96, 239, 1) 100%);
+}
+
+button{
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #1d0c20;
 }
