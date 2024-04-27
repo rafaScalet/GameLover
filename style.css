@@ -3,6 +3,16 @@ body{
     text-align: center;
 }
 
+h1{
+    color: #FECD23;
+}
+
+.header{
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -10,13 +20,14 @@ body{
 
 .container{
     margin: auto;
+    border-radius: 10px;
     width: 600px;
+    padding: 10px;
     background: linear-gradient(rgba(29,12,32,1) 0%, rgba(101,31,113,1) 100%);
 }
 
 .content{
-    margin: auto;
-    width: 550px;
+    margin: 20px;
     background: linear-gradient(rgba(101,31,113,1) 0%, rgba(29,12,32,1) 110%);
 }
 
