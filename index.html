@@ -3,42 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game Lover</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Games Lovers</title>
   </head>
+
   <body>
     <div class="container">
-      <div class="header">
-        <h1>GAMES LOVERS ENQUETE</h1>
-        <p>Estamos escolhendo nesta enquete os melhores estilos de jogos entre os afixionados por video games. Participe da nossa enquete e escolha entre os 3 finalistas.</p>
-        <p>A sua escolha é muito importante para nós.</p>
-        <p>No final da enquete iremos sortear um <strong>brinde</strong> entre os participantes</p>
+      <div class="header-title">GAMES LOVERS ENQUETE</div>
+      <div class="header-subtitle">
+        <div style="margin-bottom: 1rem">
+          Estamos escolhendo nessa enquete os melhores estilos de jogos entre os
+          afixionados por video games. Participe da nossa enquete e escolha
+          entre os três finalistas!
+        </div>
+
+        <div style="margin-bottom: 1rem">
+          A sua escolha é muito importante para nós.
+        </div>
+
+        <div style="margin-bottom: 1rem">
+          No final da enquete iremos sortear um
+          <span style="font-weight: 700">brinde</span> entre os participantes
+        </div>
       </div>
-      <div class="content">
-        <div class="form">
-            <h3>Digite os seus dados e escolha entre os 3 finalistas</h3>
-            <input type="text" placeholder="Digite seu nome">
-            <input type="text" placeholder="Digite seu Email">
+      <div class="register" style="margin-top: 2.5rem">
+        <div class="register-title">
+          Digite os seus dados e escolha entre três finalistas!
+        </div>
+        <div style="text-align: center">
+          <input type="text" placeholder="Digite seu nome:" />
+          <input type="email" placeholder="Digite seu e-mail:" />
         </div>
         <div class="flex-container">
-          <div class="card-1">
-            <p>Esportes</p>
-            <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
-            <button>Votar</button>
+          <div class="border">
+            <div class="voting">
+              <div style="margin-top: 1.4rem">Esporte</div>
+              <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
+              <button>Votar</button>
+            </div>
           </div>
-          <div class="card-2">
-            <p>Simulação</p>
-            <object data="local_airport_white.svg" type="image/svg+xml"></object>
-            <button>Votar</button>
+          <div class="border">
+            <div class="voting">
+              <div style="margin-top: 1.4rem">Simulação</div>
+              <object data="local_airport_white.svg" type="image/svg+xml"></object>
+              <button>Votar</button>
+            </div>
           </div>
-          <div class="card-3">
-            <p>Estratégia</p>
-            <object data="psychology_white.svg" type="image/svg+xml"></object>
-            <button>Votar</button>
+          <div class="border">
+            <div class="voting">
+              <div style="margin-top: 1.4rem">Estratégia</div>
+              <object data="psychology_white.svg" type="image/svg+xml"></object>
+              <button>Votar</button>
+            </div>
           </div>
         </div>
       </div>
-      <p style="font-size: 10px;">@Made by Scalet</p>
+      <div style="text-align: center;" class="credits">@Desenvolvido por Scalet</div>
     </div>
   </body>
 </html>
